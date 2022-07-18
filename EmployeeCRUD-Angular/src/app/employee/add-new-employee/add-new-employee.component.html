@@ -1,0 +1,16 @@
+<h2>Add New Employee</h2>
+<div [hidden]="submitted">
+    <form>
+        <label>Employee Id</label>
+        <input type="text" name="employeeId" [(ngModel)]="employee.employeeId">
+        <label>Name</label>
+        <input type="text" name="name" [(ngModel)]="employee.name">
+        <label>Salary</label>
+        <input type="text" name="salary" [(ngModel)]="employee.salary">
+        <input type="submit" value="Add Employee" (click)="onAddEmployee()">
+    </form>
+</div>
+<div [hidden]="!submitted">
+    <p>Employee details added successfully!!</p>
+    <button (click)="goToHome()">Back To Home</button>
+</div>

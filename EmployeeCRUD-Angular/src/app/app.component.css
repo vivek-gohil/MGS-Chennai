@@ -1,0 +1,160 @@
+.main-header {
+    width: 100%;
+    padding: 8px 16px;
+    background: #2ddf5c;
+}
+
+.main-header>div {
+    display: inline-block;
+}
+
+.main-header__brand {
+    text-decoration: none;
+    font-weight: bold;
+    color: #0e4f1f;
+}
+
+.main-nav {
+    display: inline-block;
+    text-align: right;
+    width: 80%;
+}
+
+.main-nav__items {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.main-nav__item {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+
+
+.main-nav__item a {
+    text-decoration: none;
+    color: #0e4f1f;
+    font-weight: bold;
+    padding: 3px 0px;
+}
+
+.main-nav__item__cta a {
+    color: white;
+    background: #ff1b68;
+    padding: 5px 15px;
+    border-radius: 8px;
+}
+
+section {
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.section-title {
+    color: #2ddf5c;
+    text-align: center;
+}
+
+#product-overview h1 {
+    color: white;
+    /* font-family: sans-serif; */
+    font-family: 'Anton', sans-serif;
+}
+
+.plan {
+    background: #d5ffdc;
+    text-align: center;
+    padding: 15px;
+    margin: 10px;
+    display: inline-block;
+    width: 31%;
+}
+
+.plan--highlighted {
+    background: #19b84c;
+    color: white;
+    box-shadow: 10px 5px 5px gray;
+}
+
+.plan__annotation {
+    background-color: white;
+    color: #19b84c;
+    padding: 8px;
+    border-radius: 8px;
+    box-shadow: 10px 5px 5px gray;
+}
+
+.plan__features {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.plan__feature {
+    padding: 10px;
+}
+
+.plan__price {
+    color: darkgray;
+}
+
+.plan--highlighted .plan__price {
+    color: #0e4f1f;
+}
+
+.button {
+    background-color: #0e4f1f;
+    color: white;
+    padding: 8px;
+    border-radius: 8px;
+    font-weight: bold;
+    font-family: inherit;
+    cursor: pointer;
+}
+
+.main-footer {
+    background: black;
+   padding: 10px;
+}
+
+.main-footer__links {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.main-footer__link {
+    display: inline-block;
+    padding: 0 20px;
+}
+
+.main-footer__link a {
+    text-decoration: none;
+    color: white;
+    margin: 40px 0px;
+}
+
+.main-nav__item a:hover,
+.main-nav__item a:active {
+    color: white;
+    border-bottom: 2px solid white;
+}
+
+.main-nav__item__cta a:hover,
+.main-nav__item__cta a:active {
+    color: #ff1b68;
+    background: white;
+    border: none;
+}
+
+.button:hover,
+.button:active {
+    color: #0e4f1f;
+    background: white;
+}
+
+.main-footer__link a:hover,
+.main-footer__link a:active {
+    color: #ccc;
+}
